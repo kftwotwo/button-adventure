@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-win',
-  templateUrl: './win.component.html'
+  selector: 'app-tv',
+  templateUrl: './tv.component.html'
 })
-export class WinComponent implements OnInit {
+export class TvComponent implements OnInit {
 
   constructor() { }
 

@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-still-up',
-  templateUrl: './still-up.component.html',
-  styleUrls: ['./still-up.component.css']
+  templateUrl: './still-up.component.html'
 })
 export class StillUpComponent implements OnInit {
 

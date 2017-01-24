@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-win',
-  templateUrl: './win.component.html'
+  selector: 'app-turn',
+  templateUrl: './turn.component.html'
 })
-export class WinComponent implements OnInit {
+export class TurnComponent implements OnInit {
 
   constructor() { }
 
