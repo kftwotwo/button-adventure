@@ -1,16 +1,14 @@
 import { Injectable } from '@angular/core';
-// import { PERSON } from "./creation/creation.component";
 import { Person } from './person.model';
+import { personName } from './creation/creation.component';
 
 
 @Injectable()
 export class PersonService {
-
+personName: Person;
   constructor() { }
 
-  PERSON = new Person('Yogi Bear');
-
   getPerson() {
-    return this.PERSON;
+    return personName;
   }
 }

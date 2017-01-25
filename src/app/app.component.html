@@ -1,5 +1,6 @@
 <header>
-  <h1>{{personName.name}}</h1>
+  <h1>{{personName?.name}}</h1>
+  <button (click)="getName()" *ngIf="!personName">Who am I?</button>
 </header>
 <div class="container">
   <router-outlet></router-outlet>
